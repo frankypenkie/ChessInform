@@ -1,0 +1,25 @@
+/*Навигационное меню*/
+
+#king {
+	list-style-image: url('../images/Icons/king-icon.png');
+}
+
+#queen {
+	list-style-image: url('../images/Icons/queen-icon.png');
+}
+
+#bishop {
+	list-style-image: url('../images/Icons/bishop-icon.png');
+}
+
+#knight {
+	list-style-image: url('../images/Icons/knight-icon.png');
+}
+
+#rook {
+	list-style-image: url('../images/Icons/rook-icon.png');
+}
+
+#pawn {
+	list-style-image: url('../images/Icons/pawn-icon.png');
+}

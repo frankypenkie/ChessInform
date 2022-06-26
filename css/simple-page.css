@@ -1,0 +1,53 @@
+#block-info {
+	display: flex;
+	flex-direction: column;
+	padding: 0 15px 10px;
+	background: #525252;
+	letter-spacing: 0.3px;
+}
+
+#block-info h1, h2, p, ol {
+	margin-bottom: 10px;
+}
+
+#block-info h1, h2 {
+	margin-top: 10px;
+}
+
+#block-info h1 {
+	font-size: 27px;
+	font-weight: bold;
+	letter-spacing: 0.7px;
+}
+
+#block-info h2 {
+	font-family: Helvetica;
+	font-size: 20px;
+	margin-left: 10px;
+	font-style: italic;
+}
+
+#block-info p {
+	font-size: 24px;
+	text-align: justify;
+	text-indent: 40px;
+	margin-left: 10px;
+}
+
+#block-info li {
+	font-size: 24px;
+	text-align: justify;
+}
+
+#block-info ol {
+	list-style-position: inside;
+	margin-left: 10px;
+}
+
+#block-info img {
+	margin: 15px auto;
+	width: auto;
+	height: auto;
+	min-width: 200px;
+	max-width: 600px;
+}

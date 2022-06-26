@@ -1,0 +1,13 @@
+/*Настройки картинки в поле*/
+
+.field img{
+	width: 400px;
+	height: auto;
+	object-fit: cover;
+}
+
+/*Навигационное меню*/
+
+#players li {
+	list-style-image: url('../images/Icons/king-icon.png');
+}

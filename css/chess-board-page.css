@@ -1,0 +1,39 @@
+.block-info {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(445px, 1fr));
+	margin-bottom: 10px;
+}
+
+.field {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 0.3px;
+	padding: 20px;
+}
+
+.last-block-info {
+	margin-bottom: 0;
+}
+
+.field h4{
+	font-family: Helvetica;
+	margin: auto;
+}
+
+.white-field {
+	background: #FCFCFC;
+	color: #262626;
+}
+
+.black-field {
+	background: #262626;
+	color: #FCFCFC;
+}
+
+@media screen and (min-width: 1215px) {
+	.header {
+		padding-bottom: 0;
+	}
+}
